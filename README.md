@@ -21,4 +21,4 @@ Assuming that we have obtained the standard deviation (sigma) of x as well as y 
 
 <img height=35, src="https://render.githubusercontent.com/render/math?math=b_{1}=r\frac{\sigma _{y}}{\sigma _{x}}">
 
-<img height=30, src="https://render.githubusercontent.com/render/math?math=b_{0}=\hat{y}-b_{1}x">
+<img height=23, src="https://render.githubusercontent.com/render/math?math=b_{0}=\bar{y}-b_{1}\bar{x}">
