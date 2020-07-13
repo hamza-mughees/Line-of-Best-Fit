@@ -24,3 +24,5 @@ $$b_{0}=\bar{y}-b_{1}\bar{x}$$
 The following is the output of the program when ran against the data from the 'data.csv' file:
 
 <p align="center"><img width=500, src=https://github.com/hamza-mughees/Line-of-Best-Fit/blob/master/output.png></p>
+
+The title of the plot is the obtained equation of the line of best fit.
