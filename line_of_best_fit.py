@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset = pd.read_csv('data.csv')
+dataset = pd.read_csv('\\Users\\hamza\\Documents\\VS Code\\Python\\Line of Best Fit\\data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
@@ -40,7 +40,7 @@ def estimate(e_X):
     return b0 + b1*e_X
 
 def equation():
-    return 'y = ' + str(b0) + ' + ' + str(b1) + 'x'
+    return 'y=' + str(b0) + ('+' if b1 >= 0 else '') + str(b1) + 'x'
 
 def plot(eq):
     plt.title(eq)
