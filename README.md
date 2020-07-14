@@ -13,7 +13,7 @@ The following are the formulas I used to help me calculate the equation of the l
 
 <p align="center"><img src="/tex/cb55d22cab5d700699ea9004e21bd925.svg?invert_in_darkmode&sanitize=true" align=middle width=323.47576964999996pt height=42.024892799999996pt/></p>
 
-Our final equation should be in the form <img src="/tex/b4e68edcfd54c56d10b73a26a2faef8b.svg?invert_in_darkmode&sanitize=true" align=middle width=88.91152214999998pt height=22.831056599999986pt/>
+Our final equation should be in the form <img src="/tex/b4e68edcfd54c56d10b73a26a2faef8b.svg?invert_in_darkmode&sanitize=true" align=middle width=88.91152214999998pt height=22.831056599999986pt/> where <img src="/tex/ecc2a6220fca5a94f5f5dc30c0d17570.svg?invert_in_darkmode&sanitize=true" align=middle width=52.19739854999999pt height=31.50689519999998pt/> and <img src="/tex/a21349026f0e0922a1dfa7bbafb0f7f1.svg?invert_in_darkmode&sanitize=true" align=middle width=52.19739854999999pt height=31.50689519999998pt/>
 
 Assuming that we have obtained the standard deviation (sigma) of X as well as y and the correlation coefficient (r), we can calculate the values of b0 and b1 as follows:
 
