@@ -25,6 +25,6 @@ Assuming that we have obtained the standard deviation (sigma) of X as well as y 
 
 The following is the output of the program when ran against the data from the 'data.csv' file:
 
-<p align="center"><img width=500, src=https://github.com/hamza-mughees/Line-of-Best-Fit/blob/master/output.png></p>
+<p align="center"><img width=500, src=https://github.com/hamza-mughees/Line-of-Best-Fit/blob/master/output_plot.png></p>
 
 The title of the plot is the obtained equation of the line of best fit, as well as the obtained value of R-squared.
