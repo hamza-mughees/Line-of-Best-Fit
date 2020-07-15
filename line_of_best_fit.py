@@ -30,8 +30,6 @@ def slope(r, std_dev_X, std_dev_y): return r*(std_dev_y/std_dev_X)
 def y_intercept(slope, X_mean, y_mean): return y_mean-(slope*X_mean)
 
 def equation_coeffs(X, y):
-    X_mean = mean(X)
-    y_mean = mean(y)
     b1 = slope(corr_coeff(X, y), std_dev(X), std_dev(y))[0]
     b0 = y_intercept(b1, mean(X), mean(y))[0]
     return b0, b1
@@ -42,8 +40,14 @@ def estimate(e_X):
 def equation():
     return 'y=' + str(b0) + ('+' if b1 >= 0 else '') + str(b1) + 'x'
 
-def plot(eq):
-    plt.title(eq)
+def r_squared():
+    ss_res = sum([(y[i]-estimate(X[i]))**2 for i in range(len(X))])
+    ss_tot = sum([(y[i]-mean(y))**2 for i in range(len(X))])
+    return 1-(ss_res/ss_tot)
+
+def plot(eq, r_sq):
+    title = str(eq) + ' : R^2=' + str(r_sq)
+    plt.title(title)
     plt.xlabel('INDEPENDANT')
     plt.ylabel('DEPENDANT')
     plt.scatter(X, y, color='red')
@@ -52,4 +56,4 @@ def plot(eq):
 
 b0, b1 = equation_coeffs(X, y)
 
-plot(equation())
+plot(equation(), r_squared())
