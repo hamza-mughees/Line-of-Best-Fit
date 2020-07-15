@@ -9,9 +9,17 @@ The data for this program has been obtained from [here](https://zeescorrelations
 Let X = the independant variable and y = the dependant variable  
 The following are the formulas I used to help me calculate the equation of the line of best fit and the value of R-squared:
 
+**Standard Deviation**
+
 <p align="center"><img src="/tex/eb3a5a74038c45aea699e178be46785d.svg?invert_in_darkmode&sanitize=true" align=middle width=124.04194274999999pt height=39.452455349999994pt/></p>
 
+**Correlation Coefficient**
+
 <p align="center"><img src="/tex/cb55d22cab5d700699ea9004e21bd925.svg?invert_in_darkmode&sanitize=true" align=middle width=323.47576964999996pt height=42.024892799999996pt/></p>
+
+After obtaining the line of best fit, the "closeness" of this line to the actual data can be determined with the *coefficient of determination*. The following is the formula of this value:
+
+**Coefficient of Determination (R-Squared)**
 
 <p align="center"><img src="/tex/c9245f30d48918466859e7623f193577.svg?invert_in_darkmode&sanitize=true" align=middle width=159.59038425pt height=39.88714125pt/></p>
 
