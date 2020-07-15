@@ -9,9 +9,17 @@ The data for this program has been obtained from [here](https://zeescorrelations
 Let X = the independant variable and y = the dependant variable  
 The following are the formulas I used to help me calculate the equation of the line of best fit and the value of R-squared:
 
+**Standard Deviation**
+
 $$\sigma=\sqrt{\frac{\sum{(x-\bar{x})}}{n-1}}$$
 
+**Correlation Coefficient**
+
 $$r=\frac{n(\sum{xy})-(\sum{x})(\sum{y})}{\sqrt{[n(\sum{x^{2}})-(\sum{x})^{2}][n(\sum{y^{2}})-(\sum{y})^{2}]}}$$
+
+After obtaining the line of best fit, the "closeness" of this line to the actual data can be determined with the *coefficient of determination*. The following is the formula of this value:
+
+**Coefficient of Determination (R-Squared)**
 
 $$R^2=1-\frac{\sum{(y_i-\hat{y_i})^2}}{\sum{(y_i-\bar y)^2}}$$
 
