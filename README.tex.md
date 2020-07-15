@@ -7,11 +7,13 @@ I thought I'd build a simple program which reads data from a .csv file and calcu
 The data for this program has been obtained from [here](https://zeescorrelationstudy.weebly.com/).
 
 Let X = the independant variable and y = the dependant variable  
-The following are the formulas I used to help me calculate the equation of the line of best fit:
+The following are the formulas I used to help me calculate the equation of the line of best fit and the value of R-squared:
 
 $$\sigma=\sqrt{\frac{\sum{(x-\bar{x})}}{n-1}}$$
 
 $$r=\frac{n(\sum{xy})-(\sum{x})(\sum{y})}{\sqrt{[n(\sum{x^{2}})-(\sum{x})^{2}][n(\sum{y^{2}})-(\sum{y})^{2}]}}$$
+
+$$R^2=1-\frac{\sum{(y_i-\hat{y_i})^2}}{\sum{(y_i-\bar y)^2}}$$
 
 Our final equation should be in the form $\hat{y}=b_{0}+b_{1}x$ where $b_0=\hat{\beta_0}$ and $b_1=\hat{\beta_1}$
 
@@ -25,4 +27,4 @@ The following is the output of the program when ran against the data from the 'd
 
 <p align="center"><img width=500, src=https://github.com/hamza-mughees/Line-of-Best-Fit/blob/master/output.png></p>
 
-The title of the plot is the obtained equation of the line of best fit.
+The title of the plot is the obtained equation of the line of best fit, as well as the obtained value of R-squared.
